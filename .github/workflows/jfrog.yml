@@ -1,6 +1,2 @@
-- uses: jfrog/setup-jfrog-cli@v4
-    env:
-        JF_URL: https://interviewandrewde.jfrog.io 
-    with:
-        oidc-provider-name: github 
-        oidc-audience: jfrog-github
+name: Setup JFROG CLI
+uses: jfrog/setup-jfrog-cli@v4.9.1
